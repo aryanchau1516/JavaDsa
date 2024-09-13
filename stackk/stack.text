@@ -1,0 +1,85 @@
+
+
+// STACK
+
+fun f1() {
+    f2()
+}
+fun f2() {
+    f3()
+}
+fun f3() {
+    f4()
+}
+fun f4() {}
+
+[12,23] //2
+[12]
+f1();
+
+Class {
+    stack = [];
+    size = 0;
+    push(ele) {
+        stack.insert(ele) //left most
+        size++
+        top = ele;
+        isEmpty  = false
+    }
+    pop() {
+        if(!this.isEmpty) {
+            stack.remove() //left 
+            size--;
+            top = stack[size]
+        } 
+        if(size==0) {
+            isEmpty = true
+        }
+    }
+    isEmpty = true;
+    top = null
+}
+Stack st = new Stack();
+st.push(3)
+
+Person {
+    height=90;
+    moving(){
+
+    }
+}
+static x () {
+
+}
+
+Class V extends Person {
+    main() {
+        Person ob = new Person();
+        ob.moving()
+        ob.x() 
+    }
+    
+}
+// "Hello Java"
+// "olleH, avaJ"
+
+['H','e','l','l','o', ' ', 'J', 'a','v','a']
+let stkWord = new STack()
+
+let w = '';
+while(stack is not empty) {
+    
+    let s = stk.pop(); /'a'
+    w = w + s;
+    if(s.chartAt() == 89 ) {
+        stkWord.add(w);
+        w = ''
+    }
+}
+ stkWord.add(w);
+stkWord{
+    'avaJ'
+    ,
+    'olleH'
+}
+'olleh avaj'

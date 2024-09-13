@@ -1,0 +1,43 @@
+
+
+()
+true
+[{  ( ) } ]
+true
+(){})
+[]{}() 
+[({})]{}()
+({(){}[]})
+
+//open bracket  '(', '{', '['
+// hash    ')' -> '('
+            '}' -> '{'
+            ']' -> '['
+// hash map keyed value collection
+// 233226  =>  { Bogan mardash}  O(1)
+[
+    241:kkskdj O(n) O(logn)
+]
+
+stack = [];
+
+// (){})
+
+FOR i = 0 to L-1:
+    LET c = str[i]; //  
+    IF c is OPEN:
+        stack.push(c);   // (
+    ELSE
+        LET lastcar = stack.peek(); 
+        
+          LET comparChar =  hashmap.get(c) // 
+            if( compareChar === lastcar )  {
+                //continue
+                stack.pop();
+            } else {
+                // not balanced 
+            }
+if(stack is emty) //balanced 
+not balanced 
+
+

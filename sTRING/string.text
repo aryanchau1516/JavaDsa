@@ -1,0 +1,39 @@
+
+"ab cd alexa"
+ dc alaxa"
+///
+s s+IF
+s +i   
+let revword = '';
+FOR i = L to 0
+    s = s + str[i];      s=  axela_    s=dc_
+    IF( str[i] == ' ') {
+        rev = s+rev;      rev = axela_dc_      ba_dc_axela_
+        s="";
+    } =
+// end LOOp
+rev = rev + s;           
+
+
+alaxaa
+
+
+a+b*c  (abc*+)
+
++
+
+>> ABC*+D+
+Input: A + B * C + D
+Output: ABC*+D+
+
+
+
+Input: ((A + B) – C * (D / E)) + F
+Output: AB+CDE/*-F+ 
+infix to post
++ 
+[ 7+9]
+[  + ]
+
+79
+AB+CDE/*-F+

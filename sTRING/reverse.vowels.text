@@ -1,0 +1,149 @@
+let str = 'important';
+
+let  i =0;
+let j = str.length-1;
+let v = ['a','e',....]
+while(i<j) {
+    if( v.includes(str[i]) && v.includes(str[j]) ) {
+        let temp = str[j];
+        str[j] = str[i];
+        str[i] = temp;
+        i++;
+        j--;
+    } else {
+        if( v.includes(str[i])) {
+            i++;
+            continue;
+        }
+        if( v.includes(str[j])) {
+            j--;
+            continue;
+        }
+        i++;
+        j--
+    }
+}
+
+
+
+function reverseVoles(str) { 
+
+	let v = ['a', 'e','i', 'o', 'u'];
+	let start = 0;
+	let end = str.length - 1;
+	let leftStr = '';
+	let rightStr = '';
+
+	while(start < end) {
+
+		if(v.includes(str[start]) && v.includes(str[end]) )  {
+
+			let temp = str[end];
+			leftStr = leftStr + temp;
+			rightStr = str[start] + rightStr;
+			start++;
+			end--;
+
+		} else {
+			if(v.includes(str[start])) {
+				rightStr =  str[end] + rightStr ;
+				end--;
+				continue;
+			}
+			if(v.includes(str[end])) {
+				leftStr = leftStr + str[start];
+				start++;
+				continue;
+			}
+			leftStr = leftStr + str[start];
+			rightStr = rightStr + str[end];
+			start++;
+			end--;
+
+		}
+
+	}
+	
+	if(str.length % 2 !== 0) {
+		console.log(leftStr + str[start] + rightStr)
+	} else {
+		console.log(leftStr+rightStr)
+	}
+
+
+
+
+	function reverseVoles(str) { 
+
+	let v = ['a', 'e','i', 'o', 'u'];
+	let start = 0;
+	let end = str.length - 1;
+	let leftStr = '';
+	let rightStr = '';
+
+	while(start < end) {
+
+		if(v.includes(str[start]) && v.includes(str[end]) )  {
+
+			let temp = str[end];
+			leftStr = leftStr + temp;
+			rightStr = str[start] + rightStr;
+			start++;
+			end--;
+          continue;
+
+		} else {
+			if(v.includes(str[start])) {
+				rightStr =  str[end] + rightStr ;
+				end--;
+				continue;
+			}
+			if(v.includes(str[end])) {
+				leftStr = leftStr + str[start];
+				start++;
+				continue;
+			}
+			leftStr = leftStr + str[start];
+			rightStr = rightStr + str[end];
+			start++;
+			end--;
+
+		}
+
+	}
+	
+	if(str.length % 2 !== 0) {
+		console.log(leftStr + str[start] + rightStr)
+	} else {
+		console.log(leftStr+rightStr)
+	}
+	
+	
+
+}
+reverseVoles('auxu')
+	
+
+
+
+
+    
+}
+reverseVoles('aaaacze')
+
+
+Remove vowels from string
+FUNCTION(str) {
+	'hello'
+	'hll'
+}
+ let str = '';
+	Loop char in "hello":
+		if(char any of ['a','e','i']) {
+
+		}  else {
+			str = strt + char
+		}
+
+
+

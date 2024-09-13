@@ -1,0 +1,20 @@
+Input:
+n = 6
+arr = { 6, 5, 4, 3, 1, 2 }
+search = 4
+
+4! 
+function(string:name) {
+    // 
+    ab
+    ba
+
+}
+n! = n * (n-1)*   .... * 1
+base n == 1 retrun 1
+n* f(n-1)
+5* 24 == 120
+    4*6
+        3*2
+            2*1
+                1

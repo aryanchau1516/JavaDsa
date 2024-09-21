@@ -3,7 +3,7 @@ package ARRALIST;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class twodarraylist {
+public class twodarrlist {
     public static void main(String[] args) {
         ArrayList <ArrayList <Integer>> list  = new ArrayList<>();  // syntax of the 2d arrayList
         Scanner sc  = new Scanner(System.in);

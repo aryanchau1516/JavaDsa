@@ -2,6 +2,8 @@
 /*
  * hello aryan chauhan
    nahuahc nayra olleh
+
+   its not reverse a string competly
  */
 public class REerse {
     public static void main(String[] args) {

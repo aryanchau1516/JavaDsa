@@ -1,4 +1,4 @@
-package GeekforGeeks;
+
 
 public class Missingnum {
     

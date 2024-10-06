@@ -26,3 +26,10 @@ public class NextGraterEle {
         }
     }
 }
+
+
+
+ // next greater element
+ // next grater left
+ // next smaller right
+ //next smaller left

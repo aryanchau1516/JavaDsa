@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class DuplicateEle {  
     public static void main(String[] args) {      
        
-        int [] arr = new int [] {1, 2, 3, 2, 5, 6, 8, 5, 13};   
+        int [] arr = new int [] {1, 2, 3, 2, 5, 6, 8, 5,6,13};   
       
        System.out.println( duplicate(arr));
     }

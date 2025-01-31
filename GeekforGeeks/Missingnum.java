@@ -1,18 +1,26 @@
-
+package GeekforGeeks;
 
 public class Missingnum {
-    
-
-
-    // Note that the size of the array is n-1
-    int missingNumber(int n, int arr[]) {
-   
-        int totalSum = n * (n + 1) / 2;
-            int arrSum = 0;
-            for (int num : arr) {
-                arrSum += num;
+     
+// missing num = expecteSum-actualSum;
+// long expecteSum=n*(n+1)/2;
+  static  long missingNumber(int arr[]) {
+               
+            long n = arr.length+1;
+            long expecteSum=n*(n+1)/2;
+            long actualSum=0;
+            for(int num:arr){
+                actualSum+=num; 
             }
-            return totalSum - arrSum;
+            return expecteSum-actualSum;
+       
     }
+
+    public static void main(String[] args) {
+        int arr[] = new int[]{1,2,3,5};
+       
+       // System.out.println(n);
+        System.out.println(missingNumber(arr));
+      }
    
 }
